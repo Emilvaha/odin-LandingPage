@@ -78,6 +78,7 @@ header button{
 main{
     padding: 1em 16em;
     display: flex;
+    padding-bottom: 6em;
 }
 
 .main-info h2{
@@ -100,8 +101,8 @@ main{
 
 .main-images{
     display: flex;  
-     
-}
+    justify-content: space-around;
+}   
 
 .card{
     display: flex;
@@ -118,3 +119,23 @@ main{
     margin-bottom: 1em;
   }
   
+/* Quote section */
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 1em 18em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.quote em{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote p{
+    color: #1F2937;
+    text-align: right;
+}
